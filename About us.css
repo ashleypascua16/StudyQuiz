@@ -1,0 +1,58 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bangers";
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(#D5A3FF 0%, #77A5F8 100%);
+}
+html {
+	height: -webkit-fill-available;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	max-width: 1440px;
+	margin: 0 auto;
+	height: 100vh;
+	height: -webkit-fill-available;
+}
+.wrapper{
+    background: #fff;
+    width: 900px;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
+}
+h2{
+    text-align: center;
+}
+hr{
+    width: 100px;
+    margin: 10px auto;
+}
+.members{
+    display: flex;
+}
+.team-mem{
+    margin: 8px;
+}
+img{
+    width: 110px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px;
+}
+h4,p{
+    text-align: center;
+    font-size: 12px;
+    margin: 7px;
+}

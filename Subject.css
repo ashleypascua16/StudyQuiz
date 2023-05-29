@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Norican&family=Pontano+Sans:wght@600&display=swap");
+
+*{
+    font-family: 'Pontano Sans', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+html {
+	height: -webkit-fill-available;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	max-width: 1440px;
+	margin: 0 auto;
+	height: 100vh;
+	height: -webkit-fill-available;
+}
+
+.container{
+    background:#FFFF;
+    padding:15px 9%;
+    padding-bottom: 100px;
+}
+
+.container .heading{
+    text-align: center;
+    padding-bottom: 20px;
+    color:#000000;
+    text-shadow: 0 5px 10px rgba(0,0,0,.3);
+    font-size: 50px;
+}
+
+.container .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap:15px;
+}
+
+.container .box-container .box{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background: #5D919D;
+    text-align: center;
+    padding:30px 20px;
+}
+
+.container .box-container .box img{
+    height: 110px;
+}
+
+.container .box-container .box h3{
+    color:#444;
+    font-size: 30px;
+    padding:10px 0;
+}
+
+.container .box-container .box p{
+    color:#777;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.container .box-container .box .btn{
+    margin-top: 10px;
+    display: inline-block;
+    background: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+.container .box-container .box .btn:hover{
+    letter-spacing: 2px;
+	background: #0000;
+}
+
+.container .box-container .box:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(1.03);
+}
+
+@media (max-width:768px){
+    .container{
+        padding:25px;
+    }
+}
